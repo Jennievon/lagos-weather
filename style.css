@@ -1,0 +1,81 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    color: #fff;
+    text-shadow: .1em .1em 0 rgba(0,0,0,0.3);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right top, #99bbcb, #a5c7d7, #b1d4e2, #bde0ee, #c9edfa);
+}
+
+h1 {
+    margin: 0 auto;
+    font-size: 2.2em;
+    text-align: center;
+    color: #fff;
+    font-size: 5em;
+}
+body.sunny {
+    background-image: linear-gradient(to right top, #ff4e50, #ff713e, #ff932b, #ffb41d, #f9d423);
+}
+body.cloudy {
+    background-image: linear-gradient(to right top, #63747c, #71858e, #7f96a0, #8da8b2, #9bbac5);
+}
+body.rainy {
+    background-image: linear-gradient(to right top, #637c7b, #718e8c, #7ea09e, #8db2b0, #9bc5c3);
+}
+
+
+
+
+
+
+/* header {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+}
+
+footer {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+    float: right;
+    font-weight: bold;
+	text-align: center;
+	padding-top: 40px;
+}
+
+body {
+    background: #f1c40f;
+    font-family: "Josefin Sans", sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    padding-top: 20px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows:200px;
+    grid-gap:1em;
+}
+
+.lagos, .abuja, .calabar, .kano, .anambra, .portharcourt {
+    border: 1px solid gray;  
+}
+
+.modal {
+    background: red;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    display: none
+}
+
+.modal.show { 
+    display: block;
+} */
